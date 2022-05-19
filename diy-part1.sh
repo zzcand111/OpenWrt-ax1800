@@ -17,8 +17,6 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive-webdav
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' feeds.conf.default
 
 # Update feeds
 ./scripts/feeds update -a
