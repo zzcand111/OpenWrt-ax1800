@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/zzcand/openwrt-ax1800-1
+  REPO_URL: https://github.com/tsingui/openwrt-ax1800
   REPO_BRANCH: master
   CONFIG_FILE: zn-m1.config
   DIY_P1_SH: diy-part1.sh
