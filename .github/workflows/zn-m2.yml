@@ -22,7 +22,7 @@ on:
 env:
   REPO_URL: https://github.com/tsingui/openwrt-ax1800
   REPO_BRANCH: master
-  CONFIG_FILE: zn-m1.config
+  CONFIG_FILE: zn-m3.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_FIRMWARE: true
