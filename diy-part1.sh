@@ -14,7 +14,8 @@
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive-webdav
+svn co https://github.com/kenzok8/openwrt-packages  package/kenzok8
+svn co https://github.com/kenzok8/small  package/small
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a ssrc-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
