@@ -18,8 +18,6 @@ svn co https://github.com/kenzok8/openwrt-packages  package/kenzok8
 svn co https://github.com/kenzok8/small  package/small
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-sed -i '$a ssrc-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a ssrc-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # Update feeds
 ./scripts/feeds update -a
