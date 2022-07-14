@@ -17,6 +17,8 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive-webdav
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a ssrc-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a ssrc-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # Update feeds
 ./scripts/feeds update -a
