@@ -27,7 +27,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  FILE_NAME: ax1800
+  FILE_NAME: 360v6
   TZ: Asia/Shanghai
 
 jobs:
