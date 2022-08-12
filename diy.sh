@@ -14,6 +14,7 @@
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/zzcand/luci-app-easymesh package/luci-app-easymesh
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git easymesh https://github.com/zzcand/luci-app-easymesh' feeds.conf.default
