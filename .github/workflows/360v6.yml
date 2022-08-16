@@ -22,8 +22,8 @@ on:
 env:
   REPO_URL: https://github.com/zzcand/openwrt-gl-ax1800.git
   REPO_BRANCH: main
-  CONFIG_FILE: 4.config
-  DIY_P1_SH: diy.sh
+  CONFIG_FILE: .config
+  DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
